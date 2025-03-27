@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>扫雷游戏</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="header">
+            <div class="flags-counter">🚩 <span id="flags-count">0</span></div>
+            <button id="restart-btn">重新开始</button>
+            <div class="timer">⏱️ <span id="timer">0</span></div>
+        </div>
+        <div class="difficulty">
+            <button class="difficulty-btn" data-difficulty="beginner">初级</button>
+            <button class="difficulty-btn" data-difficulty="intermediate">中级</button>
+            <button class="difficulty-btn" data-difficulty="expert">高级</button>
+        </div>
+        <div id="game-board"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
